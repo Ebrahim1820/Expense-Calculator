@@ -40,7 +40,7 @@ export default function FormSplitBill({ selectedFriend, onSplitBill }) {
       <label>🚶‍♀️ {selectedFriend.name} 's expens</label>
       <input type="text" disabled value={paiedByFriend}></input>
 
-      <label>🤑How is paying the bill</label>
+      <label>🤑Who is paying the bill</label>
       <select
         value={whoIsPaying}
         onChange={(e) => setWhoIsPaying(e.target.value)}
